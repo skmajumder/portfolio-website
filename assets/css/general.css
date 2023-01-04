@@ -1,0 +1,56 @@
+/**
+    Universal selector
+    - The CSS universal selector ( * ) matches elements of any type.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** 
+    CSS variable
+    - A tint is a mixture of a color with white, which increases lightness, while a shade is a mixture with black, which increases darkness.
+*/
+:root {
+    --color-white: #FFFFFF;
+    --color-primary: #FD6E0A;
+    --color-secondary--shade: #181818;
+    --color-secondary--tint: #474747;
+    --color-secondary--light-tint: #757575;
+}
+
+/** 
+    Root element's font-size 
+    - font-size: 10px;
+    - 10px / 16px = 0.625 = 62.5%
+    - Percentage of user's browser font-size setting
+*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/**
+    Button
+*/
+
+.btn {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    padding: 1.9rem 1.7rem;
+    border-radius: 5px;
+    color: var(--color-white) !important;
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.btn--nav-cta {
+    padding: 1.9rem 3.5rem;
+}
