@@ -39,18 +39,43 @@ body {
     Button
 */
 
-.btn {
+.btn,
+.btn:link,
+.btn:visited {
     display: inline-block;
+    text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.7rem;
-    padding: 1.9rem 1.7rem;
     border-radius: 5px;
-    color: var(--color-white) !important;
-    background-color: var(--color-primary);
     cursor: pointer;
 }
 
-.btn--nav-cta {
-    padding: 1.9rem 3.5rem;
+.btn--primary:link,
+.btn--primary:visited {
+    padding: 1.9rem 1.7rem;
+    color: var(--color-white) !important;
+    background-color: var(--color-primary);
+}
+
+.btn--nav-cta:link,
+.btn--nav-cta:visited {
+    padding: 1.6rem 3.5rem;
+    color: var(--color-white) !important;
+    background-color: var(--color-primary);
+}
+
+.btn--transparent:link,
+.btn--transparent:visited {
+    padding: 1.9rem 1.7rem;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    background-color: transparent;
+}
+
+/**
+    Margin
+*/
+.margin-right-30{
+    margin-right: 3rem;
 }

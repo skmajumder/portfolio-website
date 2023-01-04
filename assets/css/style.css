@@ -1,11 +1,10 @@
-
 /**
- Header area
+   Header area
 */
 
-/* .header{
+.header {
     height: 100vh;
-} */
+}
 
 .main-nav {
     display: flex;
@@ -46,4 +45,39 @@
     color: var(--color-secondary--tint);
     line-height: 2.7rem;
     text-decoration: none;
+}
+
+/**
+   Banner area
+*/
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner--sub-title {
+    font-size: 4.5rem;
+    line-height: 6rem;
+    font-weight: 600;
+    color: var(--color-secondary--tint);
+}
+
+.banner--title {
+    font-size: 8.5rem;
+    line-height: 11.6rem;
+    font-weight: 700;
+    color: var(--color-secondary--shade);
+    margin-bottom: 2rem;
+}
+
+.banner-description {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: var(--color-secondary--light-tint);
+    margin-bottom: 3rem;
+}
+
+.banner-img {
+    width: 60%;
 }
