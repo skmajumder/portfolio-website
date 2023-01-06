@@ -8,10 +8,9 @@
 
 .main-nav {
     display: flex;
-    gap: 22.5rem;
     align-items: center;
-    justify-content: space-around;
-    margin: 5rem 0;
+    justify-content: space-between;
+    margin: 5rem 20rem;
 }
 
 .home-link {
@@ -50,21 +49,23 @@
 /**
    Banner area
 */
+
 .banner {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 5rem 20rem;
 }
 
 .banner--sub-title {
-    font-size: 4.5rem;
-    line-height: 6rem;
+    font-size: 3.5rem;
+    line-height: 3rem;
     font-weight: 600;
     color: var(--color-secondary--tint);
 }
 
 .banner--title {
-    font-size: 8.5rem;
+    font-size: 6.5rem;
     line-height: 11.6rem;
     font-weight: 700;
     color: var(--color-secondary--shade);
@@ -79,5 +80,5 @@
 }
 
 .banner-img {
-    width: 60%;
+    width: 100%;
 }
